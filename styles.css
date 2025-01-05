@@ -1,0 +1,172 @@
+/* General styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f5f5f5;
+    color: #333;
+}
+
+header {
+    background-color: #d32f2f;
+    padding: 10px 0;
+    text-align: center;
+    color: white;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+}
+
+.logo {
+    font-size: 1.5rem;
+}
+
+main {
+    padding: 40px 20px;
+}
+
+.hero {
+    text-align: center;
+    
+    background: url('https://cdn.photoroom.com/v2/image-cache?path=gs://background-7ef44.appspot.com/backgrounds_v3/christmas/35_-_christmas.jpg') no-repeat center center;
+    background-size: cover;
+    color: hsla(44, 95%, 43%, 0.996);
+    padding: 80px 0;
+}
+
+.hero h1 {
+    font-size: 2rem;
+    
+}
+
+button {
+    background-color: #ffca28;
+    color: #d32f2f;
+    padding: 10px 20px;
+    margin: 20px;
+
+    font-size: 1.2rem;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #ffb300;
+}
+
+.snowfall {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 20%;
+    height: 50%;
+    pointer-events: none;
+}
+
+
+.features {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+
+.feature {
+    text-align: center;
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 8px;
+    width: 30%;
+
+}
+
+.extra-container {
+    text-align: center;
+    background:url('https://cdn.photoroom.com/v2/image-cache?path=gs://background-7ef44.appspot.com/backgrounds_v3/christmas/05_-_christmas.jpg')
+}
+
+
+
+.extra-list {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+    
+}
+
+.extra-item img {
+    max-width: 200px;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 50px;
+}
+
+footer p {
+    font-size: 0.9rem;
+}
+
+.contact-container {
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin: 10px 0 5px;
+}
+
+input, textarea {
+    padding: 10px;
+    font-size: 1rem;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button[type="submit"] {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding: 12px;
+    font-size: 1rem;
+}
+
+button[type="submit"]:hover {
+    background-color: #218838;
+}
+
+#responseMessage {
+    margin-top: 20px;
+    font-size: 1.2rem;
+    color: green;
+}
